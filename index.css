@@ -33,27 +33,51 @@
     display:block;
     background-color: black;
 }
-
 .logo{
     display:block;
     margin-left: auto;
     margin-right: auto;   
     width: 50%;
-    height: 25%
+   padding: 1%;
 }
+.slogan{
+    color:  lightblue;
+    text-shadow: 
+    0 0 1px lightblue,
+    0 0 10px lightblue,
+    0 0 21px lightblue,
+    0 0 42px blue,
+    0 0 82px blue,
+    0 0 92px blue,
+    0 0 102px blue,
+    0 0 151px blue;
+    font-size: 300%;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
 .videoTrailer{
     display:block;
     margin-left: auto;
     margin-right:auto;
     width: 40%;
+    border-style: outset;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 5px;
     
 }
 .footer{
-    /* position: absolute; */
     bottom:0;
     clear:both;
     width: 100%;
-    background-color: red
+    background-color: red;
+    margin-top: 2%;
 }
 .socialMedia ul li{
     display:inline-table;
